@@ -4,7 +4,7 @@ A Python script to help convert Spotify playlists to Youtube playlists (WIP)
 
 Python version used: 3.13.0
 
-##For Windows Users:
+## Setup for Windows Users:
 
 ```
 cd /path/{for_your_project}
