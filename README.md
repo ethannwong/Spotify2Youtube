@@ -1,6 +1,6 @@
 # Spotify2Youtube
 
-A Python script to help convert Spotify playlists to Youtube playlists (WIP)
+A Python script to help convert Spotify playlists to Youtube Music playlists (Work In Progress)
 
 Python version used: 3.13.0
 
