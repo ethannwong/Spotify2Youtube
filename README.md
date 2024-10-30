@@ -9,7 +9,7 @@ Python version used: 3.13.0
 ```
 cd /path/{for_your_project}
 
-Set-ExecutionPolicy Unrestricted -Scope Process 
+Set-ExecutionPolicy Unrestricted -Scope Process  # if venv\Scripts\activate doesn't work
 
 python -m venv venv
 
@@ -17,5 +17,5 @@ venv\Scripts\activate
 
 pip install requirements.txt
 
-py Spot2Utube.py
+py Spot2Utube.py # or python Spot2Utube.py
 ```
