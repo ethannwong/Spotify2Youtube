@@ -33,36 +33,3 @@ try:
 except spotipy.exceptions.SpotifyException as e:
     print("Error:", e)
 
-
-
-# results= sp.current_user_saved_tracks(limit=50,offset=9, market="US")
-# print("second hi")
-# print(results)
-# taylor_uri = 'spotify:artist:06HL4z0CvFAxyc27GXpf02'
-# results = sp.artist_albums(taylor_uri, album_type='album')
-# albums = results['items']
-# while results['next']:
-#     results = sp.next(results)
-#     albums.extend(results['items'])
-
-# for album in albums:
-#     print(album['name'])
-
-# scope = 'playlist-read-private'
-# sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
-
-# results = sp.current_user_playlists(limit=50)
-# print(results)
-# for i, item in enumerate(results['items']):
-#     print("%d %s" % (i, item['name']))
-
-# taylor_uri = 'spotify:artist:06HL4z0CvFAxyc27GXpf02'
-
-# results = sp.artist_albums(taylor_uri, album_type='album')
-# albums = results['items']
-# while results['next']:
-#     results = sp.next(results)
-#     albums.extend(results['items'])
-
-# for album in albums:
-#     print(album['name'])
