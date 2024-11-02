@@ -15,7 +15,7 @@ cd /path/{for_your_project}
 
 Set-ExecutionPolicy Unrestricted -Scope Process  # if venv\Scripts\activate doesn't work
 
-python -m venv venv
+py -m venv venv
 
 venv\Scripts\activate
 
