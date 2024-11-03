@@ -22,6 +22,7 @@ be able to see it under Enabled APIs and services.
 You need to make an API key, and a OAuth 2.0 Client ID in the Credentials section. 
 Once you finish that download the json file from your OAuth 2.0 client ID and rename it as client_secret.json. 
 You have to move this into your cloned project directory later.
+ALSO add the email you want the playlist to be created in as a test user.
 
 https://developers.google.com/youtube/v3/getting-started
 
