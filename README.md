@@ -9,12 +9,19 @@ I believe you can use convert ~65 songs daily due to Google's api quota.
 <img src="it works.gif"/>
 Screen is hidden right before running the script to avoid showing my emails, as running the script opens a pop-up immediately.
 
+
 Before Starting:
+
 You need to create your web api app from spotify which will give you a client id and client secret. You should also add the email associated with your Spotify account as a test user for it to work.
+
 https://developer.spotify.com/
 
-You will also need a Google account which you will use to register to create a project in the Google's developer console. You have to add the youtube data api v3 to your API library. After doing so you should
-be able to see it under Enabled APIs and services. You need to make an API key, and a OAuth 2.0 Client ID in the Credentials section. Once you finish that download the json file from your OAuth 2.0 client ID and rename it as client_secret.json. You have to move this into your cloned project directory later.
+You will also need a Google account which you will use to register to create a project in the Google's developer console. 
+You have to add the youtube data api v3 to your API library. After doing so you should
+be able to see it under Enabled APIs and services.
+You need to make an API key, and a OAuth 2.0 Client ID in the Credentials section. 
+Once you finish that download the json file from your OAuth 2.0 client ID and rename it as client_secret.json. 
+You have to move this into your cloned project directory later.
 
 https://developers.google.com/youtube/v3/getting-started
 
