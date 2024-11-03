@@ -28,6 +28,9 @@ ALSO add the email you want the playlist to be created in as a test user.
 
 https://developers.google.com/youtube/v3/getting-started
 
+
+
+
 Follow the steps below right and stop right before running the script. Make an .env file in your project directory which should look like: 
 ```
 SPOTIFY_CLIENT_ID='SPOTIFY_CLIENT_ID'
