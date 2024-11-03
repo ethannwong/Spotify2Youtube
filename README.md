@@ -32,3 +32,24 @@ SPOTIFY_CLIENT_SECRET='SPOTIFY_CLIENT_SECRET'
 DEVELOPER_KEY='DEVELOPER_KEY'
 
 ```
+and replace the strings with your own credentials.
+
+## Setup for Windows Users:
+
+```
+cd /path/{for_your_project}
+
+Set-ExecutionPolicy Unrestricted -Scope Process  # if venv\Scripts\activate doesn't work
+
+py -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+# Finish the steps above before running it 
+
+py Spot2Utube.py -s {starting index} -e {ending index} -t {Playlist title} 
+# or python Spot2Utube.py with the above arguments
+```
+
