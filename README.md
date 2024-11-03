@@ -10,6 +10,8 @@ I believe you can use convert ~65 songs daily due to Google's api quota.
 Screen is hidden right before running the script to avoid showing my emails, as running the script opens a pop-up immediately.
 
 
+
+
 Before Starting:
 
 You need to create your web api app from spotify which will give you a client id and client secret. You should also add the email associated with your Spotify account as a test user for it to work.
