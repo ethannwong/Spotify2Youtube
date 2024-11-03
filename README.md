@@ -12,7 +12,9 @@ Screen is hidden right before running the script to avoid showing my emails, as 
 
 ## Before Starting:
 You need to create your web api app from spotify which will give you a client id and client secret. 
+
 https://developer.spotify.com/
+
 You also need to include the email associated with your spotify account as a test user.
 
 
